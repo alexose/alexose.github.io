@@ -1,0 +1,18 @@
+{
+  "name": "alexose.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/alexose/alexose.github.io",
+  "author": "Alexander Ose <alex@threatswitch.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "start": "parcel src/index.html"
+  },
+  "dependencies": {
+    "preact": "^10.2.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
