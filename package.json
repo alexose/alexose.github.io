@@ -6,7 +6,7 @@
   "author": "Alexander Ose <alex@threatswitch.com>",
   "license": "MIT",
   "scripts": {
-    "build": "parcel build src/index.html",
+    "build": "parcel build src/index.html -d ./",
     "start": "parcel src/index.html"
   },
   "dependencies": {
