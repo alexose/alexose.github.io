@@ -1,11 +1,21 @@
+import 'preact/debug';
 import { h, render } from 'preact';
-import Jumbotron from './Components/Jumbotron';
+import Styled from 'styled-components';
 
-console.log(Jumbotron);
+import Jumbotron from './Components/Jumbotron';
+import Main from './Components/Main';
+import SideNav from './Components/SideNav';
+
+const Container = Styled.div`
+  display: flex;
+`;
 
 render((
   <div id="foo">
     <Jumbotron>Alexander Ose</Jumbotron>
-    <button onClick={ e => alert("hi!") }>Click Me</button>
+    <Container>
+      <SideNav />
+      <Main />
+    </Container>
   </div>
 ), document.body);
